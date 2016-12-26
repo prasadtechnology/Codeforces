@@ -14,6 +14,14 @@ public class MinCoinsTaken{
 		String str = in.readLine();
 		String values[] = str.split(" ");
 
+
+		/**
+		best way is
+		for(int i = 0; i < coins; i++){
+			sum[i] = sum[i - 1] + sum[i];
+		}
+		Arrays.sort(sum);		
+		**/
 		for(int i = 0; i < coins; i++){
 			input[i] = Integer.parseInt(values[i]);
 		}

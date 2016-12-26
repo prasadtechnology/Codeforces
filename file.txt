@@ -1,4 +1,15 @@
-4
-4
-1 2
-2 5
+
+
+Dear Prasanth,
+
+I am writing to inform you that I will be resigning from Software Engineer. My last day of work will be 2017-Jan-03.
+
+I would like to thank you for having me as part of your team. I am proud to have worked for Corporate Software Solutions Pvt Ltd, and I appreciate the time and patience you have shown in training me. 
+
+Please acknowledge this letter as my official notice of resignation. I will do my best to ensure that all of my projects are completed and ensure a smooth transition. I have been fortunate to have been a part of Corporate Software Solutions Pvt Ltd, and I wish you continued success.
+
+Sincerely,
+
+Prasadarao
+
+Software Engineer
