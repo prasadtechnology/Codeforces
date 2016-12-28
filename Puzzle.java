@@ -12,7 +12,7 @@ public class Puzzle{
 		Arrays.sort(puzzleValue);
 		int minDiff = Integer.MAX_VALUE;
 		int temp = 0;
-		for(int j = 0; (temp = j + students) < puzzles; j++){
+		for(int j = 0; (temp = j + students) <= puzzles; j++){
 			minDiff = Math.min(minDiff, puzzleValue[temp - 1] - puzzleValue[j]);
 		}
 		if(minDiff == Integer.MAX_VALUE){

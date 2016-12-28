@@ -1,3 +1,6 @@
+/**
+It is wrong check in hackerrank 
+**/
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
