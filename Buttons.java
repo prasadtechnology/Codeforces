@@ -1,3 +1,6 @@
+/**
+Very good problem
+**/
 import java.util.Scanner;
 
 public class Buttons{

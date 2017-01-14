@@ -1,5 +1,6 @@
 /**
 Int can hold 10 digits and long can hold 19 digits
+(int)Math.ceil((double)numCups/5); -> It is good to ceil division
 **/
 import java.io.*;
 import java.util.*;
@@ -8,8 +9,10 @@ class Test{
 	static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	public static void main(String[] args) throws Exception{
 
-		int a = 8;
-		System.out.println(a >> 1); // >> for bitwise right shift and << for left shift 
+		char c = '1';
+		System.out.print(Character.getNumericValue(c));
+		// int a = 8;
+		// System.out.println(a >> 1); // >> for bitwise right shift and << for left shift 
 		// int a[] = {1,2,3,4,5};
 		// int b[] = Arrays.copyOf(a,3);
 
