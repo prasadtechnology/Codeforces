@@ -35,11 +35,17 @@ public class Rewards{
 		System.out.println("cup : "+numCups);
 		System.out.println("medal: "+numMedals);
 
+		shelvesForCups = (int)Math.ceil((double)numCups/5);
+		shelvesForMedals = (int)Math.ceil((double)numMedals/10);			
+
+
 		if(shelvesForCups + shelvesForMedals <= shelves){
 			System.out.println("YES");
 		}else{
 			System.out.println("NO");
 		}
 	}
+
+}
 }
 
