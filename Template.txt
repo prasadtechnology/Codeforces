@@ -16,3 +16,8 @@ public class StringTask{
 	}
 }
 
+ps -ax -> used to list currently running processes
+avc denial selinux fedora
+4.10.160.10
+JAVA_HOME="/usr/lib/jvm/open-jdk"
+229
