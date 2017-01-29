@@ -8,9 +8,10 @@ import java.math.*;
 class Test{
 	static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	public static void main(String[] args) throws Exception{
+		// char A[] = {'4','5'};
+            // A[1] = (char)('9' - A[1] + '0');
 
-		char c = '1';
-		System.out.print(Character.getNumericValue(c));
+        System.out.println((int)'9' +" : "+ (int)'5' +" : "+ (int)'0');
 		// int a = 8;
 		// System.out.println(a >> 1); // >> for bitwise right shift and << for left shift 
 		// int a[] = {1,2,3,4,5};
@@ -27,5 +28,6 @@ class Test{
 		// System.out.print(str.next().matches(".*(0{7,}|1{7,}).*") ? "YES" : "NO");
 	}
 }
+
 
 
