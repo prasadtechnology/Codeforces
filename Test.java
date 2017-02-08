@@ -11,7 +11,8 @@ class Test{
 		// char A[] = {'4','5'};
             // A[1] = (char)('9' - A[1] + '0');
 
-        System.out.println((int)'9' +" : "+ (int)'5' +" : "+ (int)'0');
+		System.out.println(Math.sqrt((double)36));
+        // System.out.println((int)'9' +" : "+ (int)'5' +" : "+ (int)'0');
 		// int a = 8;
 		// System.out.println(a >> 1); // >> for bitwise right shift and << for left shift 
 		// int a[] = {1,2,3,4,5};
