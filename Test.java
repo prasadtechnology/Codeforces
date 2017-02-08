@@ -1,10 +1,3 @@
-/**
-Int can hold 10 digits and long can hold 19 digits
-(int)Math.ceil((double)numCups/5); -> It is good to ceil division
-**/
-import java.io.*;
-import java.util.*;
-import java.math.*;
 class Test{
 	static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 	public static void main(String[] args) throws Exception{
@@ -21,14 +14,25 @@ class Test{
 		// Long i = 1000000000000000000L;
 		// for(int i : b){
 		// 	System.out.println(i);
+	//public static void main(String[] args) {
+
+		String str = "hello";
+		//h
+		//he
+		//hel
+		//hell
+		//hello
+		System.out.println(str+'c');
+
+		// int a[] = {1,2,3};
+		// for(int i = 1; i < (1 << 3); i++){
+		// 	for(int j = 0; j < a.length; j++){
+		// 		if((i&(1 << j)) > 0){
+		// 			System.out.print(a[a.length - j - 1]+" ");
+		// 		}
+		// 	}
+		// 	System.out.println();
 		// }
-		// String str = "abcaa";
-		// System.out.println(str.replaceAll("[bc]","a"));
 
-		// System.out.println(str.replaceAll("(.)",".$1"));
-		// System.out.print(str.next().matches(".*(0{7,}|1{7,}).*") ? "YES" : "NO");
-	}
+		}
 }
-
-
-

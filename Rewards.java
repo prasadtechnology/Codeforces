@@ -20,24 +20,8 @@ public class Rewards{
 		int shelvesForCups = 0;
 		int shelvesForMedals = 0;
 
-		if(numCups >= 1 && numCups <= 5){
-			shelvesForCups = 1;
-		}
-		if(numMedals >= 1 && numMedals <= 10){
-			shelvesForMedals = 1;
-		}else{
 		shelvesForCups = (int)Math.ceil((double)numCups/5);
 		shelvesForMedals = (int)Math.ceil((double)numMedals/10);			
-		}
-
-		// System.out.println("No cup selves : "+shelvesForCups);
-		// System.out.println("No medal selves : "+shelvesForMedals);
-		System.out.println("cup : "+numCups);
-		System.out.println("medal: "+numMedals);
-
-		shelvesForCups = (int)Math.ceil((double)numCups/5);
-		shelvesForMedals = (int)Math.ceil((double)numMedals/10);			
-
 
 		if(shelvesForCups + shelvesForMedals <= shelves){
 			System.out.println("YES");
@@ -45,7 +29,4 @@ public class Rewards{
 			System.out.println("NO");
 		}
 	}
-
 }
-}
-
